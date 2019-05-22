@@ -1,0 +1,70 @@
+1.下载git 
+
+    
+2.功能: .解决多人开发的过程,引起文件冲突的问题;
+能够版本控制,分支化操作,分支直接可以互相访问,svn 不能(必须通过svn服务器);
+
+
+3.下载完 git--version 版本查询 
+
+
+4.创建全局邮箱和用户名
+git config --global user.name "刘德华"
+git config --global user.email "xx@xx.com"
+
+
+5.在你需要传输的文件目录下,右键打开git base here 
+输入 git init (格式化) 之后会在你的文件目录下 形成一个局部的 git 路径 打开里面的config 可以修改当前局部的 邮箱 和用户名 
+
+6.设置完5之后, 打开git base here 输入 git status 指令 (查看当前内容) 会出来 所在路径下所有的文件 
+
+7.git add 文件名  会把文件提交到暂存区
+
+8.git commit -m "描述文件信息" 会把文件提交到本体git的仓库
+
+
+9.git log 可以查看当前本地仓库的所有上传文件
+
+10.登录gitHub 新建一个仓库,在git里面 输入仓库的地址
+和提交代码(git push -u origin master) 
+
+11.如果不小心删除了本地的文件 怎么办? 可以从gitHub下载下来,一种直接download  二种是通过git加载(clone)到本地  这个地址 在gitHub 下载地方直接会生出的
+
+12.git ==> gitHub 就结束了  
+
+13.git 传输过程 
+ 本地文件==>暂存区==>本地仓库(git自己的内存中)===>push gitHub (外国的服务器);
+
+
+14.本地的一些操作() 
+ git checkout 文件名  从本地仓库==下载到本地
+
+ git show 指定文件详细内容
+
+ rm 文件名  删除本地文件
+
+
+15.分支(创建和切换和删除)重点
+
+ git branch  查看分支    (master主分支)
+
+ git branch  one (创建分支)
+
+ git checkout 分支名  (切换分支)
+
+ git merge one 和并子分支 (这个前期必须在主分支下进行) )(这个目的主要是 让子分支的内容增加到主分支里去)
+
+ git branch -d one (删除子分支);
+
+ 
+ 
+
+ 
+
+  
+
+
+
+
+
+
